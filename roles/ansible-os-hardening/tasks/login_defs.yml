@@ -1,0 +1,3 @@
+---
+- name: create login.defs
+  template: src='login.defs.j2' dest='/tmp/login.defs' owner=root group=root mode=0444
